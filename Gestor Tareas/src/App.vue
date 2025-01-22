@@ -4,6 +4,7 @@ import { getCurrentUser,useCurrentUser,useFirebaseAuth } from 'vuefire';
 import { signOut } from 'firebase/auth';
 import { ref } from 'vue';
 
+
 const router = useRouter();
 const auth = useFirebaseAuth();
 const user = useCurrentUser();
