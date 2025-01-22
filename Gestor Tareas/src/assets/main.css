@@ -1,0 +1,32 @@
+:root{
+    --color-primario: #b5def8;
+    --color-secundario: #091479;
+    --color-terciario: #09011593;
+    --color-cuaternario: #ffffff;
+    --color-quintenario: #000000;
+    --color-sextenario: #00ffee;
+    --color-septenario: #77ff00;
+    --color-octavo: #ff5733;
+    --color-noveno: #c70039;
+    --color-decimo: #2bff00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../../public/img/Fondo1.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 4em;
+}
+svg{
+    fill: var(--color-cuaternario);
+    width: 100%;
+}
