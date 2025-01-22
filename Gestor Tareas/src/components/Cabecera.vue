@@ -1,11 +1,11 @@
 <script setup>
     //Importar componentes Vue
     import {ref} from 'vue';
-
     //Funcionalidad de la cabecera
     const emit = defineEmits(['NuevaTarea']);
     var textoNuevaTarea = ref('');
 
+    
 
     /**
      * Función para agregar una nueva nota.
